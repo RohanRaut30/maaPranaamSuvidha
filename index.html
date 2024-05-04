@@ -27,6 +27,24 @@
         <link href="css/magnific-popup.css" rel="stylesheet">
 
         <link href="css/tooplate-waso-strategy.css" rel="stylesheet">
+
+
+        <style>
+             .map-container {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      padding-top: 56.25%; /* Aspect ratio 16:9 */
+    }
+    .map-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+        </style>
     
     </head>
     
@@ -474,9 +492,10 @@
                                         </h5>
                                         
                                         <!-- Copy "embed a map" HTML code from any point on Google Maps -> Share Link  -->
-                                        
+                                        <div class="map-container">
                                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.5659619350427!2d73.8982206742369!3d18.503309469703208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1c5f0000001%3A0xcb943e93a77ea76c!2sKPCT%20mall!5e0!3m2!1sen!2sin!4v1714730785160!5m2!1sen!2sin" width="460" height="430" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                           
-                                    </div>
+                                        </div>
+                                </div>
                                 </div>
                             </div>
 
@@ -524,6 +543,11 @@
         <script src="js/magnific-popup-options.js"></script>
         <script src="js/click-scroll.js"></script> 
         <script src="js/custom.js"></script>
+         <!-- Responsive Map View  -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
 
     </body>
 </html>
