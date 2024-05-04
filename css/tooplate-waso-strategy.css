@@ -600,7 +600,8 @@ strong {
 }
 
 .projects-small-title {
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
+  color: #000000;
   text-transform: uppercase;
 }
 
