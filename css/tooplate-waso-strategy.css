@@ -601,7 +601,8 @@ strong {
 
 .projects-small-title {
   /* color: var(--primary-color); */
-  color: #000000;
+  color: #cae3ea;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
